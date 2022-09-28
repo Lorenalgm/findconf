@@ -1,0 +1,6 @@
+{
+  "index": {
+    "heading": "This is the headingaaaaaaaaa",
+    "content": "This is the dummy content of the page. This is just placeholder content for this page and is written in English. We will be using the translations API of both ButterCMS and Next.js to build a multilingual website."
+  }
+}

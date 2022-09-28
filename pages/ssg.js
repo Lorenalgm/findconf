@@ -1,25 +1,24 @@
 import { useTranslations } from "next-intl";
 
-export default function Home() {
- const t = useTranslations("index");
+export default function Page() {
+ const t = useTranslations("ssg");
 
  return (
    <div>
-     <h2>Início</h2>
+     <h2>From next-intl</h2>
      <h1>{t("heading")}</h1>
      <p>{t("content")}</p>
-     <h2>Fim</h2>
    </div>
  );
 }
 
-export function getStaticProps({ locale }) {
+export const getStaticProps = ({ locale, locales }) => {
  return {
    props: {
      messages: {
-       ...require(`../messages/index/${locale}.json`),
+       ...require(`../messages/ssg/${locale}.json`),
        ...require(`../messages/navbar/${locale}.json`),
      },
    },
  };
-}
+};
