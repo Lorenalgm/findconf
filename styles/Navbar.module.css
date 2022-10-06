@@ -13,7 +13,7 @@
     gap: 1rem;
 }
 
-.navbar a{ font-size: 2rem; padding-left: 1rem}
+.navbar > div a{ font-size: 2rem; padding-left: 1rem}
 
 .title {
     color: var(--primary-color);
@@ -32,6 +32,9 @@
     height: 3rem;
     transition: filter 0.2s;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button:hover {
