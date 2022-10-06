@@ -1,6 +1,15 @@
 {
   "index": {
-    "heading": "This is the headingaaaaaaaaa",
-    "content": "This is the dummy content of the page. This is just placeholder content for this page and is written in English. We will be using the translations API of both ButterCMS and Next.js to build a multilingual website."
+    "filter_type_attendance": "Attendance",
+    "filter_type_online": "Online",
+    "filter_type_blended": "Blended",
+    "filter_price_free": "Free",
+    "filter_price_paid": "Paid",
+    "field_all": "All",
+    "field_developer": "Developer",
+    "field_product": "Product",
+    "field_user_experience": "UX",
+    "field_user_infra": "Infra",
+    "field_user_data": "Data"
   }
 }

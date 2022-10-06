@@ -1,6 +1,15 @@
 {
-    "index": {
-      "heading": "C'est le titre",
-      "content": "Il s'agit du contenu factice de la page. Ceci est juste un contenu d'espace réservé pour cette page et est écrit en anglais. Nous utiliserons l'API de traduction de ButterCMS et Next.js pour créer un site Web multilingue."
-    }
+  "index": {
+    "filter_type_attendance": "Presencial",
+    "filter_type_online": "En línea",
+    "filter_type_blended": "Híbrido",
+    "filter_price_free": "Libre",
+    "filter_price_paid": "Pagado",
+    "field_all": "Todos",
+    "field_developer": "Desarrollo",
+    "field_product": "Producto",
+    "field_user_experience": "Experiencia de usuario",
+    "field_user_infra": "Infraestructura",
+    "field_user_data": "Datos"
+  }
 }

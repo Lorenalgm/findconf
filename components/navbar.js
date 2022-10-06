@@ -15,7 +15,7 @@ export default function Navbar() {
         <div>
           <LocaleSwitcher />
         </div>
-          <button type='button' className={styles.button}>{t("event")}</button>
+          <a href='https://github.com/Lorenalgm/findconf' target="_blank" className={styles.button}>{t("event")}</a>
       </nav>
    </header>
  );
