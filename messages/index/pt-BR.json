@@ -1,6 +1,15 @@
 {
     "index": {
-      "heading": "PORTUGUESSS",
-      "content": "TPORTUGUESSS"
+      "filter_type_attendance": "Presencial",
+      "filter_type_online": "Online",
+      "filter_type_blended": "Híbrido",
+      "filter_price_free": "Gratuito",
+      "filter_price_paid": "Pago",
+      "field_all": "Todos",
+      "field_developer": "Desenvolvimento",
+      "field_product": "Produto",
+      "field_user_experience": "UX",
+      "field_user_infra": "Infraestrutura",
+      "field_user_data": "Dados"
     }
 }

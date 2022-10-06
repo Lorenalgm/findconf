@@ -1,0 +1,19 @@
+.containerSearch {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.themeTitle {
+   font-size: 1.7rem;
+}
+
+.themeInput {
+    width: 38rem;
+    height: 2.7rem;
+    border-radius: .4rem;
+    padding: .4rem;
+    font-size: 1rem;
+}
