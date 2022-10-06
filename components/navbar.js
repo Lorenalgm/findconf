@@ -2,22 +2,21 @@ import React from "react";
 import Link from "next/link";
 import LocaleSwitcher from "./locale-switcher";
 import { useTranslations } from "next-intl";
+import styles from '../styles/Navbar.module.css'
 
 export default function Navbar() {
  const t = useTranslations("navbar");
 
  return (
-   <nav>
-     <Link href="/">
-       <a>{t("home")}</a>
-     </Link>
-     <Link href="/ssg">
-       <a>{t("ssg")}</a>
-     </Link>
-     <Link href="/ssr">
-       <a>{t("ssr")}</a>
-     </Link>
-     <LocaleSwitcher />
-   </nav>
+  <header className={styles.navbarContainer}>
+    <h1 className={styles.title}>Find Conf</h1>
+
+    <nav className={styles.navbar}>
+        <div>
+          <LocaleSwitcher />
+        </div>
+          <button type='button' className={styles.button}>{t("event")}</button>
+      </nav>
+   </header>
  );
 }
