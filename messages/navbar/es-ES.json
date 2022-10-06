@@ -1,8 +1,10 @@
 {
     "navbar": {
-     "home": "ssss",
-     "ssg": "ssss",
-     "ssr": "ssss",
-     "switchLocale": "trocar"
+     "home": "",
+     "ssg": "",
+     "event": "Añadir event",
+     "switchLocale": "trocar",
+     "theme_title": "Ache seu próximo evento tech.",
+     "theme_input": "Digite um tema"
     }
 }

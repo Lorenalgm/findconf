@@ -3,24 +3,38 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function LocaleSwitcher() {
- const { locales, locale, pathname, query, asPath } = useRouter();
- const otherLocales = locales.filter((l) => l !== locale); // Find all the locales apart from the current locale.
- const t = useTranslations("navbar");
+  const { locales, locale, pathname, query, asPath } = useRouter();
+  const t = useTranslations("navbar");
+  console.log(query)
 
- return (
-   <>
-     {otherLocales.map((locale) => {
-       return (
-         <Link
-           key={locale}
-           href={{ pathname, query }}
-           as={asPath}
-           locale={locale}
-         >
-           <a>{t("switchLocale", { locale })}</a>
-         </Link>
-       );
-     })}
-   </>
- );
+  function getFlag(locale) {
+    switch (locale) {
+      case 'pt-BR':
+        return '🇧🇷'
+        break;
+      case 'en-US':
+        return '🇺🇸'
+      case 'es-ES':
+        return '🇪🇸'
+      default:
+        break;
+    }
+  }
+
+  return (
+    <>
+      {locales.map((locale) => {
+        return (
+          <Link
+            key={locale}
+            href={{ pathname, query }}
+            as={asPath}
+            locale={locale}
+          >
+            <a>  {getFlag(locale)} </a>
+          </Link>
+        );
+      })}
+    </>
+  );
 }
