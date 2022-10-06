@@ -4,9 +4,6 @@ import Searcher from "../components/seacher";
 import styles from '../styles/Home.module.css'
 import data from './events.json';
 
-
-console.log(data);
-
 export default function Home() {
  const t = useTranslations("index");
 
@@ -32,7 +29,7 @@ export default function Home() {
           </div>
           <div className={styles.conferencesContainer}>
             {data.conferences.length > 0 && data.conferences.map((item) => {
-              return <div className={styles.conferenceCard}> {item.field} </div>
+              return <div className={styles.conferenceCard} key={item.id}> {item.field} </div>
             })}
               
           </div>
