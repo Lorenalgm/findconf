@@ -30,7 +30,6 @@ export default function LocaleSwitcher() {
             href={{ pathname, query }}
             as={asPath}
             locale={locale}
-            key={locale}
           >
             <a>  {getFlag(locale)} </a>
           </Link>
