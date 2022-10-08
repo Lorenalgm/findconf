@@ -6,11 +6,21 @@
   --font-color: #F1F1F1;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
+}
+
+body, input, textarea, button {
   font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -18,16 +28,29 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+
+body {
+  color: var(--font-color);
+  background: var(--backgroud-color);
+  -webkit-font-smoothing: antialiased;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  } */
-  body {
-    color: var(--font-color);
-    background: var(--backgroud-color);
+h1, h2, h3, h4, h5, h6, strong{
+  font-weight: 600;
+}
+
+button{
+  cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+    html{
+        font-size: 93.75%;
+    }  
   }
-/* } */
+
+@media (max-width: 720px){
+  html{
+    font-size: 87.5%;
+  }
+}

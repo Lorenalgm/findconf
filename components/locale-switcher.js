@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 export default function LocaleSwitcher() {
   const { locales, locale, pathname, query, asPath } = useRouter();
   const t = useTranslations("navbar");
-  console.log(query)
 
   function getFlag(locale) {
     switch (locale) {
