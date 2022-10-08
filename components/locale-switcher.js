@@ -5,12 +5,10 @@ import { useRouter } from "next/router";
 export default function LocaleSwitcher() {
   const { locales, locale, pathname, query, asPath } = useRouter();
   const t = useTranslations("navbar");
-
   function getFlag(locale) {
     switch (locale) {
       case 'pt-BR':
         return '🇧🇷'
-        break;
       case 'en-US':
         return '🇺🇸'
       case 'es-ES':
@@ -19,18 +17,18 @@ export default function LocaleSwitcher() {
         break;
     }
   }
-
+  console.log(query)
   return (
     <>
-      {locales.map((locale) => {
+      {locales.map((item) => {
         return (
           <Link
-            key={locale}
+            key={item}
             href={{ pathname, query }}
             as={asPath}
-            locale={locale}
+            locale={item}
           >
-            <a>  {getFlag(locale)} </a>
+            <a  className={item === locale? 'locale-active' : ''}>  {getFlag(item)} </a>
           </Link>
         );
       })}

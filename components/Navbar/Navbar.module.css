@@ -2,7 +2,7 @@
 .navbarContainer {
     max-width: 1128px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,18 +20,20 @@
     align-items: center;
 }
 
-.navbar > div a{ font-size: 2rem; padding-right: 0.75rem;}
-
+.navbar > div a{ font-size: 2rem; margin-right: 0.75rem}
+.navbar > div a:hover{
+    filter: brightness(0.9);
+}
 .title {
     color: var(--primary-color);
-    font-weight: 700px;
     font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .button {
     width: 225px;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
     color: black;
     background: var(--primary-color);
     border: 0;

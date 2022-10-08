@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import styles from '../styles/Searcher.module.css'
+import styles from './Searcher.module.css'
 
 export default function Searcher() {
  const t = useTranslations("navbar");

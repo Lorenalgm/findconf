@@ -1,6 +1,6 @@
 
 import { useTranslations } from "next-intl";
-import Searcher from "../components/seacher";
+import Searcher from "../components/Seacher";
 import styles from '../styles/Home.module.css'
 import data from './events.json';
 
