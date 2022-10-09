@@ -1,13 +1,13 @@
 .principalContainer{
-    width: 100vw;
     display: flex;
     justify-content: center;
-    max-width: 1500px;
-    margin: 2rem auto 0 auto;
+    max-width: 1128px;
+    margin: 3rem auto 0 auto;
 }
-
 .filtersContainer{
+    padding-top: 4.563rem;
     width: 20%;
+
 }
 
 .contentContainer{
@@ -18,22 +18,21 @@
 }
 
 .fieldContainer{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-items: center;
+    display: flex;
+    gap: 1rem;
 }
 .conferencesContainer{
+  margin-top: 3rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  gap: 1rem;
-    justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.25rem;
 
 }
 .conferenceCard {
-  width: 275px;
-  height: 257px;
+  height: 250px;
   background-color: var(--details-color);
+  position: relative;
+  border-radius: 6px;
 }
 
 

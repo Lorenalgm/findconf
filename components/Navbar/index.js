@@ -1,8 +1,7 @@
 import React from "react";
-import Link from "next/link";
-import LocaleSwitcher from "./locale-switcher";
+import LocaleSwitcher from "../locale-switcher";
 import { useTranslations } from "next-intl";
-import styles from '../styles/Navbar.module.css'
+import styles from './Navbar.module.css'
 
 export default function Navbar() {
  const t = useTranslations("navbar");

@@ -1,5 +1,5 @@
 .containerSearch {
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,5 +15,9 @@
     height: 2.7rem;
     border-radius: .4rem;
     padding: .4rem;
+    background: var(--details-color);
+    border: 1px solid #2b2631;
+    font-weight: 400;
     font-size: 1rem;
+    color: var(--font-color);
 }
