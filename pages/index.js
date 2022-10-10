@@ -42,20 +42,26 @@ export default function Home() {
       <Searcher />
       <div className={styles.principalContainer}>
         <div className={styles.filtersContainer}>
-            <p>{t("filter_type_attendance")}</p>
-            <p>{t("filter_type_online")}</p>
-            <p>{t("filter_type_blended")}</p>
-            <p>{t("filter_price_free")}</p>
-            <p>{t("filter_price_paid")}</p>
+            <div className="typeFilter">
+              <Link href="#"><a className={styles.filter} onClick={e => setType(null)}>{t("filter_type_all")}</a></Link>
+              <Link href="#"><a className={styles.filter} onClick={e => setType(t("filter_type_attendance"))}>{t("filter_type_attendance")}</a></Link>
+              <Link href="#"><a className={styles.filter} onClick={e => setType(t("filter_type_online"))}>{t("filter_type_online")}</a></Link>
+              <Link href="#"><a className={styles.filter} onClick={e => setType(t("filter_type_blended"))}>{t("filter_type_blended")}</a></Link>
+            </div>
+            <div className="pricesFilter">
+              <Link href="#"><a className={styles.filter} onClick={e => setPrice(null)}>{t("filter_price_all")}</a></Link>
+              <Link href="#"><a className={styles.filter} onClick={e => setPrice(t("filter_price_free"))}>{t("filter_price_free")}</a></Link>
+              <Link href="#"><a className={styles.filter} onClick={e => setPrice(t("filter_price_paid"))}>{t("filter_price_paid")}</a></Link>
+            </div>
         </div>
         <div className={styles.contentContainer}>
           <div className={styles.fieldContainer}>
-            <Link href="#"><a onClick={e => setField(null)}>{t("field_all")}</a></Link>
-            <Link href="#"><a onClick={e => setField(t("field_developer"))}>{t("field_developer")}</a></Link>
-            <Link href="#"><a onClick={e => setField(t("field_product"))}>{t("field_product")}</a></Link>
-            <Link href="#"><a onClick={e => setField(t("field_user_experience"))}>{t("field_user_experience")}</a></Link>
-            <Link href="#"><a onClick={e => setField(t("field_user_infra"))}>{t("field_user_infra")}</a></Link>
-            <Link href="#"><a onClick={e => setField(t("field_user_data"))}>{t("field_user_data")}</a></Link>
+            <Link href="#"><a className={styles.filter} onClick={e => setField(null)}>{t("field_all")}</a></Link>
+            <Link href="#"><a className={styles.filter} onClick={e => setField(t("field_developer"))}>{t("field_developer")}</a></Link>
+            <Link href="#"><a className={styles.filter} onClick={e => setField(t("field_product"))}>{t("field_product")}</a></Link>
+            <Link href="#"><a className={styles.filter} onClick={e => setField(t("field_user_experience"))}>{t("field_user_experience")}</a></Link>
+            <Link href="#"><a className={styles.filter} onClick={e => setField(t("field_user_infra"))}>{t("field_user_infra")}</a></Link>
+            <Link href="#"><a className={styles.filter} onClick={e => setField(t("field_user_data"))}>{t("field_user_data")}</a></Link>
           </div>
           <div className={styles.conferencesContainer}>
             {events.length > 0 && events.map((item) => {
