@@ -1,7 +1,7 @@
 .principalContainer{
     display: flex;
     justify-content: center;
-    max-width: 1528px;
+    max-width: 90%;
     margin: 3rem auto 0 auto;
 }
 .filtersContainer div{
