@@ -44,7 +44,28 @@
 
 
 @media (max-width: 600px) {
-  
+  .principalContainer {
+      flex-direction: column;
+  }
+
+  .filtersContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filtersContainer div{
+    flex-direction: row;
+    padding-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fieldContainer{
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

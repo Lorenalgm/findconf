@@ -50,3 +50,15 @@
 .button:hover {
     filter: brightness(0.9);
 }
+
+@media (max-width: 600px) {
+    .navbarContainer {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+}
