@@ -35,13 +35,6 @@
   grid-gap: 1.25rem;
 
 }
-.conferenceCard {
-  height: 250px;
-  background-color: var(--details-color);
-  position: relative;
-  border-radius: 6px;
-}
-
 
 @media (max-width: 600px) {
   .principalContainer {
