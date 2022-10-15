@@ -1,0 +1,59 @@
+.conferenceCard {
+    max-width: 280px;
+    height: 264px;
+    background-color: var(--details-color);
+    position: relative;
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 1.25rem;
+  }
+
+.header {
+    display: flex
+}
+.header img {
+      width: 100%;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+  }
+
+  .header h3{
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    align-self: center;
+  } 
+
+  .label {
+    display: flex;
+    gap: 0.75rem 0.5rem;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+  }
+
+  .label span {
+    background-color: #544C60;
+    border-radius: 4px;
+    padding: 0.25rem 1rem;
+  }
+
+  .conferenceCard p{
+    font-size: 0.75rem;
+  }
+
+  .button {
+    padding: 0.5em 1rem;
+    justify-self: flex-end;
+    background: var(--primary-color); 
+    border-radius: 4px;
+    transition: filter 0.2s;
+    border: 0;
+  }
+
+.button:hover {
+  filter: brightness(0.9);
+}
