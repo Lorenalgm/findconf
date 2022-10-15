@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           <div className={styles.conferencesContainer}>
             {events.length > 0 && events.map((item) => {
-              return  <ConferenceCard conference={item}/>
+              return  <ConferenceCard conference={item} key={item.id}/>
             })}
               
           </div>

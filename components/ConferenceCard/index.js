@@ -4,7 +4,7 @@ import { FormatService } from "../../src/services/FormatService";
 
 export default function ConferenceCard({conference}) {
     return (
-        <div className={styles.conferenceCard} key={conference.id}>
+        <div className={styles.conferenceCard}>
              <div className={styles.header}>
                 <img src='https://github.com/lumamontes.png' alt='conference logo'/>
                 <h3>{conference.title}</h3>
