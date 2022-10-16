@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import data from './events.json';
 import React, { useState, useEffect } from 'react'
 import Link from "next/link";
+import ConferenceCard from "../components/ConferenceCard";
 
 export default function Home() {
  const t = useTranslations("index");
@@ -65,7 +66,7 @@ export default function Home() {
           </div>
           <div className={styles.conferencesContainer}>
             {events.length > 0 && events.map((item) => {
-              return <div className={styles.conferenceCard} key={item.id}> {item.field} </div>
+              return  <ConferenceCard conference={item} key={item.id}/>
             })}
               
           </div>

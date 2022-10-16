@@ -17,7 +17,7 @@ export default function LocaleSwitcher() {
         break;
     }
   }
-  console.log(query)
+
   return (
     <>
       {locales.map((item) => {
