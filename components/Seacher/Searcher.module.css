@@ -35,6 +35,11 @@
         text-align: center;
     }
 
+    .filters{
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
     .themeTitle {
         font-size: 1.4rem;
      }
