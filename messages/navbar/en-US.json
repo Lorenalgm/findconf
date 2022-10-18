@@ -6,6 +6,8 @@
      "event": "Add conference",
      "switchLocale": "trocar",
      "theme_title": "Find your next tech event.",
-     "theme_input": "Enter a theme"
+     "theme_input": "Enter a theme",
+     "initial_date": "Initial date",
+     "end_date": "End Date"
     }
 }

@@ -6,6 +6,8 @@
      "event": "Adicionar evento",
      "switchLocale": "trocar",
      "theme_title": "Ache seu próximo evento tech.",
-     "theme_input": "Digite um tema"
+     "theme_input": "Digite um tema",
+     "initial_date": "Data inicial",
+     "end_date": "Data final"
     }
 }

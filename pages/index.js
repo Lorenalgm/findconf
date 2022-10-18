@@ -14,9 +14,15 @@ export default function Home() {
  const [type, setType] = useState('');
  const [price, setPrice] = useState('');
  const [language, setLanguage] = useState('');
+ const [initialDate, setInitialDate] = useState(new Date());
+ const [endDate, setEndDate] = useState('');
+ const childToParent = (initialDate, endDate) => {
+   setInitialDate(initialDate)
+   setEndDate(endDate)
+ }
 
  useEffect(() => {
-    let orderEvents = data.conferences.sort((a, b) => new Date(a.inicial_date) - new Date(b.inicial_date))
+    let orderEvents = data.conferences.sort((a, b) => new Date(a.initial_date) - new Date(b.initial_date))
     
     if(field){
       orderEvents = orderEvents.filter(event => { return event.field === field;  });
@@ -33,14 +39,28 @@ export default function Home() {
     if(language){
       orderEvents = orderEvents.filter(event => { return event.language === language;  });
     }
+
+    if(initialDate){
+      orderEvents = orderEvents.filter(event => { return new Date(event.initial_date) >= new Date(initialDate); });
+    }
+
+    if(endDate){
+      orderEvents = orderEvents.filter(event => { 
+        if(event.end_date){
+          return new Date(event.end_date) <= new Date(endDate)
+        }else{
+          return new Date(event.initial_date) <= new Date(endDate);
+        }
+      });
+    }
     
     setEvents(orderEvents);
 
- }, [field,type,price, language]);
+ }, [field,type,price, language, initialDate, endDate]);
 
  return (
     <>
-      <Searcher />
+      <Searcher childToParent={childToParent} />
       <div className={styles.principalContainer}>
         <div className={styles.filtersContainer}>
             <div className="typeFilter">

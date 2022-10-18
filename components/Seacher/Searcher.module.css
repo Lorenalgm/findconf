@@ -10,8 +10,16 @@
    font-size: 1.7rem;
 }
 
+.filters{
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+    justify-content: center;
+    max-width: 1400px;
+}
+
 .themeInput {
-    width: 38rem;
+    width: 20rem;
     height: 2.7rem;
     border-radius: .4rem;
     padding: .4rem;
@@ -25,6 +33,11 @@
 @media (max-width: 600px) {
     .containerSearch {
         text-align: center;
+    }
+
+    .filters{
+        margin-top: 2rem;
+        flex-direction: column;
     }
 
     .themeTitle {
