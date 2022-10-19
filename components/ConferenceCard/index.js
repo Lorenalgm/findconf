@@ -7,7 +7,7 @@ export default function ConferenceCard({ conference }) {
     return (
         <div className={styles.conferenceCard}>
             <div className={styles.header}>
-                <img src='https://github.com/lumamontes.png' alt='conference logo' />
+                <img src={conference.image_link || 'https://emojipedia-us.s3.amazonaws.com/source/skype/289/party-popper_1f389.png'} alt='conference logo' />
                 <h3>{conference.title}</h3>
                 <small>{format(parseISO(conference.inicial_date), 'dd/MM')}</small>
             </div>
