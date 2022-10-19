@@ -13,10 +13,14 @@
   }
 
 .header {
-    display: flex
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conferenceCard small {
+  font-size: 0.75rem;
 }
 .header img {
-      width: 100%;
       width: 42px;
       height: 42px;
       border-radius: 50%;
@@ -24,7 +28,6 @@
 
   .header h3{
     font-size: 1rem;
-    padding-left: 1.5rem;
     align-self: center;
   } 
 
