@@ -86,7 +86,7 @@ export default function Home() {
           </div>
           <div className={styles.conferencesContainer}>
             {events.length > 0 && events.map((item) => {
-              return  <ConferenceCard conference={item} key={item.id}/>
+              return  <ConferenceCard conference={item} key={item.id} />
             })}
               
           </div>
@@ -102,6 +102,7 @@ export function getStaticProps({ locale }) {
      messages: {
        ...require(`../messages/index/${locale}.json`),
        ...require(`../messages/navbar/${locale}.json`),
+       ...require(`../messages/conference/${locale}.json`),
      },
    },
  };
