@@ -45,7 +45,7 @@
         {
             "id": 4,
             "title": "PHP conference Brasil 2023",
-            "field": "Dados",
+            "field": "Desenvolvimento",
             "initial_date": "2023-12-07",
             "end_date": "2023-12-09",
             "type": "Híbrido",
@@ -71,7 +71,7 @@
             "image_link": "https://brasil.campus-party.org/wp-content/uploads/2021/11/menu_0f312cc801cc2fc38eb5d853e6110f3e-e1635869985222.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Campus Party: CPBSB 5",
             "field": "Desenvolvimento",
             "initial_date": "2023-04-05",
@@ -85,7 +85,7 @@
             "image_link": "https://brasil.campus-party.org/wp-content/uploads/2021/11/menu_0f312cc801cc2fc38eb5d853e6110f3e-e1635869985222.png"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "AWS Summit",
             "field": "Infraestrutura",
             "initial_date": "",
@@ -99,7 +99,7 @@
             "image_link": "https://d1.awsstatic.com/aws-summit-saopaulo2_300x65.aef67213c90196d5fdf9db21d563c7b730de99ce.png"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Rio2C",
             "field": "Desenvolvimento",
             "initial_date": "2023-04-11",
