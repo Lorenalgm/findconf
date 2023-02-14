@@ -12,7 +12,7 @@
             "language": "pt-BR",
             "description": "Imersão presencial completa para quem é ou quer se tornar um Tech Lead. O Assemble é um evento de 3 dias que reúne grandes nomes e profissionais do mercado da tecnologia para uma experiência única. Melhore suas skills e se prepare para o próximo nível da sua carreira em liderança técnica.",
             "subscription_link": "https://lp.rocketseat.com.br/assemble",
-            "image_link": "https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/6357c9bf4e91b2f09ef005e4_Assemble-montage-OP.webp"
+            "image_link": "https://i.imgur.com/Xd2WrZ3.png"
         },
         {
             "id": 2,
@@ -26,7 +26,7 @@
             "language": "pt-BR",
             "description": "O RSXP é um evento de tecnologia, educação e inovação que vai reunir a comunidade dev em São Paulo durante 2 dias para uma experiência única, imersiva e transformadora. A primeira edição aconteceu em 2019 na capital paulista e contou com hackathon, palestras, mais de 40 workshops, muito networking e presença de mais de mil profissionais da tecnologia.",
             "subscription_link": "hhttps://rsxp.rocketseat.com.br/",
-            "image_link": "https://rsxp.rocketseat.com.br/_next/image?url=%2Fassets%2Fimages%2Frsxp-participants.png&w=750&q=75"
+            "image_link": "https://i.imgur.com/5oW14Mx.png"
         },
         {
             "id": 3,
@@ -40,7 +40,7 @@
             "language": "pt-BR",
             "description": "Ataque, Defesa, Front End, Back End, Hardware, Data Science, Cloud e Privacidade: para todos os gostos! O evento ainda conta com oficinas e atividades hands-on espalhadas por 6 vilas (OSINT, Python, Mobile, Code 4 Sec, Hardware, Kids), presença de comunidades e hackerspaces com projetos que mudam o mundo, a grande final do CTF do #HFBR23, Keynote Speakers, Q&As com nossos palestrantes, DJs e shows!",
             "subscription_link": "https://www.roadsec.com.br/",
-            "image_link": "https://images.squarespace-cdn.com/content/v1/5feb6d8bfc15e836c6f54d8d/1609765142287-0RNUEM5PLQVFZMEDGL7T/logo.png?format=1500w"
+            "image_link": "https://i.imgur.com/Qc5Vcmn.png"
         },
         {
             "id": 4,
@@ -54,7 +54,7 @@
             "language": "pt-BR",
             "description": "Conferência PHP (17 anos) em Porto Alegre - RS",
             "subscription_link": "https://phpconference.com.br/",
-            "image_link": "https://i0.wp.com/phpconference.com.br/wp-content/uploads/2023/01/20221126_181008-scaled.jpeg?resize=570%2C380&ssl=1"
+            "image_link": "https://i.imgur.com/Je9jhGv.png"
         },
         {
             "id": 5,
@@ -68,7 +68,7 @@
             "language": "pt-BR",
             "description": "A Campus Party é a maior experiência geek do mundo! Nosso objetivo é criar cada vez mais um ambiente imersivo e disruptivo para debater sobre tecnologia, criatividade, inovação e educação.",
             "subscription_link": "https://brasil.campus-party.org/cpbr15/ingressos/",
-            "image_link": "https://brasil.campus-party.org/wp-content/uploads/2021/11/menu_0f312cc801cc2fc38eb5d853e6110f3e-e1635869985222.png"
+            "image_link": "https://i.imgur.com/QBXUH0u.png"
         },
         {
             "id": 6,
@@ -82,21 +82,21 @@
             "language": "pt-BR",
             "description": "A Campus Party é a maior experiência geek do mundo! Nosso objetivo é criar cada vez mais um ambiente imersivo e disruptivo para debater sobre tecnologia, criatividade, inovação e educação.",
             "subscription_link": "https://brasil.campus-party.org/cpbsb5/",
-            "image_link": "https://brasil.campus-party.org/wp-content/uploads/2021/11/menu_0f312cc801cc2fc38eb5d853e6110f3e-e1635869985222.png"
+            "image_link": "https://i.imgur.com/bBsLDmc.png"
         },
         {
             "id": 7,
-            "title": "AWS Summit",
+            "title": "AWS Essentials - IA & Machine learning",
             "field": "Infraestrutura",
-            "initial_date": "",
+            "initial_date": "2023-02-15",
             "end_date": "",
-            "type": "Presencial",
-            "price": "Pago",
-            "location": "São Paulo",
+            "type": "Online",
+            "price": "Gratuito",
+            "location": "Remoto",
             "language": "pt-BR",
-            "description": "No AWS Summit São Paulo deste ano, você descobrirá como a AWS pode ajudar você a inovar rapidamente e entregar soluções flexíveis e confiáveis em grande escala. Inscreva-se agora gratuitamente e junte-se a nós presencialmente nesta conferência de dois dias para ouvir as últimas novidades dos líderes da AWS, aprender novas habilidades e praticar networking com seus colegas do setor.",
-            "subscription_link": "https://aws.amazon.com/pt/events/summits/sao-paulo/",
-            "image_link": "https://d1.awsstatic.com/aws-summit-saopaulo2_300x65.aef67213c90196d5fdf9db21d563c7b730de99ce.png"
+            "description": "Nesse evento digital você aprenderá os fundamentos de Machine Learning (ML), técnicas de plataforma e ciência de dados para criar aplicações de ML e obter uma visão prática a partir de demos.",
+            "subscription_link": "https://pages.awscloud.com/LATAM-field-OE-Essentials-aiml-pt-2023-reg-event.html",
+            "image_link": "https://i.imgur.com/odihRWN.png"
         },
         {
             "id": 8,
@@ -110,7 +110,91 @@
             "language": "pt-BR",
             "description": "Join 8,000+ professionals at the World’s Largest Developer & Engineering Expo + Conference Series",
             "subscription_link": "https://www.sympla.com.br/evento/rio2c-creator/1815957?lang=PT",
-            "image_link": "https://www.rio2c.com/wp-content/uploads/2023/01/si082_-_Card_Site_Creator.png"
+            "image_link": "https://i.imgur.com/tIyxdRx.png"
+        },
+        {
+            "id": 9,
+            "title": "ScyllaDB Summit",
+            "field": "Dados",
+            "initial_date": "2023-04-11",
+            "end_date": "",
+            "type": "Online",
+            "price": "Gratuito",
+            "location": "Remoto",
+            "language": "en-US",
+            "description": "Discover the latest trends and best practices impacting data-intensive applications. Join us at ScyllaDB Summit",
+            "subscription_link": "https://www.scylladb.com/scylladb-summit-2023/?utm_source=twitch&utm_medium=influencer&utm_campaign=twitch_danielhe4rt_scylladb_summit&utm_content=2023-02",
+            "image_link": "https://i.imgur.com/oyIFpiX.png"
+        },
+        {
+            "id": 10,
+            "title": "UnicornTech: O que você deveria saber de front-end",
+            "field": "Desenvolvimento",
+            "initial_date": "2023-02-23",
+            "end_date": "",
+            "type": "Presencial",
+            "price": "Gratuito",
+            "location": "São Paulo",
+            "language": "pt-BR",
+            "description": "Vamos falar de performance, segurança e possivelmente arquitetura de CSS, mas possivelmente.",
+            "subscription_link": "https://www.meetup.com/pt-BR/unicorntech/events/291294984/",
+            "image_link": "https://i.imgur.com/7ACrI4f.png"
+        },
+        {
+            "id": 11,
+            "title": "B2B IT Conference",
+            "field": "Desenvolvimento",
+            "initial_date": "2023-03-06",
+            "end_date": "2023-03-08",
+            "type": "Online",
+            "price": "Gratuito",
+            "location": "Remoto",
+            "language": "pt-BR",
+            "description": "Aprenda com grandes entusiastas e líderes do setor de tecnologia quais habilidades são necessárias para desenvolver times e projetos complexos ligados à tecnologia. Venha participar de uma imersão de aprendizagem sobre o mercado que mais cresce no Brasil e no Mundo.",
+            "subscription_link": "https://it.b2bstack.com.br/",
+            "image_link": "https://i.imgur.com/P27UYw5.png"
+        },
+        {
+            "id": 12,
+            "title": "IFTL: tech leads 2023",
+            "field": "Desenvolvimento",
+            "initial_date": "2023-02-28",
+            "end_date": "2023-03-02",
+            "type": "Online",
+            "price": "Gratuito",
+            "location": "Remoto",
+            "language": "pt-BR",
+            "description": "Aprenda com as referências no mercado que gerenciam times de alta performance, escalam times com novos talentos e desenvolvem projetos complexos de tecnologia do dia 28/02 a 02/03 em um evento online feito para Tech Leads",
+            "subscription_link": "https://tl.iftl.education/tlw2023",
+            "image_link": "https://i.imgur.com/FsPSbXM.png"
+        },
+        {
+            "id": 13,
+            "title": "Cubo Talks: soft skill",
+            "field": "Desenvolvimento",
+            "initial_date": "2023-02-14",
+            "end_date": "",
+            "type": "Online",
+            "price": "Gratuito",
+            "location": "Remoto",
+            "language": "pt-BR",
+            "description": "Aprenda a impressionar recrutadores de tecnologia, descobrindo as verdades não ditas sobre SOFT SKILLS em processos seletivos!",
+            "subscription_link": "https://cubos.academy/evento/soft-skills",
+            "image_link": "https://i.imgur.com/pjdGBPz.png"
+        },
+        {
+            "id": 14,
+            "title": "Destravando sua carreira em UI Design e Figma",
+            "field": "UX",
+            "initial_date": "2023-02-06",
+            "end_date": "2023-02-15",
+            "type": "Online",
+            "price": "Gratuito",
+            "location": "Remoto",
+            "language": "pt-BR",
+            "description": "Destrave sua carreira como UI designer, aprenda ganhar dinheiro com uma das profissões mais promissoras de 2023, mesmo que esteja começando do ZERO!",
+            "subscription_link": "https://deployux.com/destravando-sua-carreira-ui-designer",
+            "image_link": "https://i.imgur.com/aoN8y2n.png"
         }
     ]
 }

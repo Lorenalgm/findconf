@@ -12,10 +12,12 @@ const DrawerContent = ({ conference, hideConference}) => {
           <h3>{conference.title}</h3>
           <p>{conference.description}</p>
           <small>{format(parseISO(conference.initial_date), 'dd/MM')}</small>
+          <small>{conference.end_date && format(parseISO(conference.end_date), 'dd/MM')}</small>
           <span>{conference.type}</span>
           <span>{conference.price}</span>
           <span>{conference.language}</span>
           <span>{conference.field}</span>
+          <span>{conference.subscription_link}</span>
         </main>
       </div>
    </>
