@@ -10,26 +10,20 @@
     justify-content: space-between;
 
     padding: 1.25rem;
-  }
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
+
+.conferenceCard:hover{
+  cursor: pointer;
+}
+
 .conferenceCard small {
   font-size: 0.75rem;
 }
-.header img {
-      width: 42px;
-      height: 42px;
-      border-radius: 50%;
-      object-fit: cover;
-  }
 
-  .header h3{
-    font-size: 1rem;
+.title {
+    font-size: 1.3rem;
     align-self: center;
+    color: var(--primary-color)
   } 
 
   .label {

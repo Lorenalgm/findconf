@@ -1,0 +1,39 @@
+.backgroundDrawer{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 101;
+  inset: 0;
+}
+
+.drawerContainer {
+    background-color: var(--backgroud-color);
+    box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
+      hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+    position: fixed;
+    z-index: 102;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    width: 90vw;
+    max-width: 600px;
+    height: 100vh;
+    padding: 25px;
+}
+
+.conferenceContainer{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.conferenceContainer p{
+  margin-top: 1em;
+}
+
+.conferenceContainer span {
+  background-color: #544C60;
+  border-radius: 4px;
+  width: 12em;
+  padding: 0.25rem 1rem;
+  margin-top: 1em;
+}
