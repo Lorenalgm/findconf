@@ -1,15 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { useTranslations } from "next-intl";
 import styles from './Searcher.module.css'
+import { useRouter } from "next/router";
 
 export default function Searcher({childToParent}) {
  const t = useTranslations("navbar");
- const [initialDate, setInitialDate] = useState('');
- const [endDate, setEndDate] = useState('');
-
- useEffect(() => {
-  childToParent(initialDate, endDate);
-}, [initialDate, endDate]);
+ const  router  = useRouter();
 
  return (
   <div className={styles.containerSearch}>
@@ -18,12 +14,20 @@ export default function Searcher({childToParent}) {
     <div className={styles.filters}>
       <span>
         <p>{t("initial_date")}:</p>
-        <input className={styles.themeInput} type="date" onChange={e => setInitialDate(new Date(e.target.value))} />
+        <input className={styles.themeInput} type="date" onChange={e => {
+          router.replace({
+            query: { ...router.query, initialDate: e.target.value },
+          });
+        }} />
       </span>
 
       <span>
         <p>{t("end_date")}:</p>
-        <input className={styles.themeInput} onChange={e => setEndDate(new Date(e.target.value))} type="date" />
+        <input className={styles.themeInput} onChange={e => {
+          router.replace({
+            query: { ...router.query,endDate: e.target.value },
+          });
+        }} type="date" />
       </span>
     </div>
   </div>
