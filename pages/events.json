@@ -195,6 +195,48 @@
             "description": "Destrave sua carreira como UI designer, aprenda ganhar dinheiro com uma das profissões mais promissoras de 2023, mesmo que esteja começando do ZERO!",
             "subscription_link": "https://deployux.com/destravando-sua-carreira-ui-designer",
             "image_link": "https://i.imgur.com/aoN8y2n.png"
+        },
+        {
+            "id": 15,
+            "title": "GitTogether Florianópolis",
+            "field": "Desenvolvimento",
+            "initial_date": "2023-03-06",
+            "end_date": "",
+            "type": "Presencial",
+            "price": "Gratuito",
+            "location": "Florianópolis",
+            "language": "pt-BR",
+            "description": "Primeiro encontro presencial da GitHub Open Source Community de Florianópolis.",
+            "subscription_link": "https://www.meetup.com/githubbrasil/events/292129624/",
+            "image_link": "https://i.imgur.com/PPJc9z0.jpg"
+        },
+        {
+            "id": 16,
+            "title": "FRONTIN Elas Programam 2023",
+            "field": "Desenvolvimento",
+            "initial_date": "2023-04-29",
+            "end_date": "",
+            "type": "Presencial",
+            "price": "Pago",
+            "location": "São Paulo",
+            "language": "pt-BR",
+            "description": "A FRONTIN, em parceria com a comunidade Elas Programam, comandada por Silvia Coelho trazem de volta o evento que lotou o Teatro Gazeta, no coração de São Paulo, na Av. Paulista, em 2022: FRONTIN Elas Programam, um evento feito por e para mulheres que se interessem por tecnologia ou já atuam na área. Em sua segunda edição, o evento trará muito conteúdo de qualidade sobre tecnologia e carreira apresentado mulheres que são referências na área e novos talentos, além de muito networking.",
+            "subscription_link": "https://www.eventbrite.com.ar/e/frontin-elas-programam-2023-tickets-570948140257",
+            "image_link": "https://i.imgur.com/z4eEiyR.png"
+        },
+        {
+            "id": 17,
+            "title": "IWD SUDESTE 2023",
+            "field": "Desenvolvimento",
+            "initial_date": "2023-03-25",
+            "end_date": "",
+            "type": "Híbrido",
+            "price": "Gratuito",
+            "location": "São Paulo",
+            "language": "pt-BR",
+            "description": "Um evento feito para celebrar o Dia Internacional das Mulheres através do protagonismo feminino, com muito networking, dicas para você que pretende mudar de carreira e muito conhecimento tecnológico.",
+            "subscription_link": "https://www.sympla.com.br/evento/iwd-sudeste-2023/1873998?lang=PT",
+            "image_link": "https://i.imgur.com/EG1X7ai.png"
         }
     ]
 }
