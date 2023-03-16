@@ -1,25 +1,37 @@
 
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/router";
+import { format, parseISO } from 'date-fns';
+import styles from './conference.module.css'
+import data from '../events.json';
 
 export default function Conference() {
  const t = useTranslations("index");
 
  const  router  = useRouter();
-console.log(router.query)
+ let conference = router.query.conference;
+
+ if(conference){
+   conference = JSON.parse(conference);
+ }else{
+   const id = router.query.id;
+   conference = data.conferences.find(event => event.id = id);
+ }
 
  return (
-    <main className="conference_container">
-      {/* <img src={conference.image_link || 'https://emojipedia-us.s3.amazonaws.com/source/skype/289/party-popper_1f389.png'} alt='conference logo' />
-      <div className="conference_info">
+    <main className={styles.conferenceContainer}>
+      <img className={styles.conferenceImage} src={conference.image_link} alt='conference logo' />
+        <div className={styles.conferenceInfo}>
         <h3>{conference.title}</h3>
         <small>{format(parseISO(conference.initial_date), 'dd/MM')}</small>
+        {conference.end_date && <small>{format(parseISO(conference.end_date), 'dd/MM')}</small>}
         <span>{conference.type}</span>
           <span>{conference.price}</span>
           <span>{conference.language}</span>
           <span>{conference.field}</span>
           <span>{conference.description}</span>
-      </div> */}
+          <span>{conference.location}</span>
+      </div>
     </main>
  );
 }

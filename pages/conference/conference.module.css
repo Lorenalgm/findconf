@@ -1,0 +1,32 @@
+.conferenceContainer{
+    height: 28em;
+}
+
+.conferenceImage{
+    position: absolute;
+    z-index: 2;
+    box-shadow: 4px 5px 9px 1px rgba(126, 202, 156, 0.71);
+    transform: rotate(6deg);
+    border-radius: 4px;
+    width: 50em;
+    height: 30em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 60%;
+    top: 35%;
+    opacity: 88%;
+    filter: contrast(0.7) saturate(0.9) brightness(0.8);
+    transition: 1s ease 0s;
+}
+
+.conferenceImage:hover{
+    opacity: 100%;
+    transform: rotate(0);
+    filter: none;
+}
+
+.conferenceInfo{
+    z-index: 1;
+    width: 60%;
+    padding-top: 2.7em;
+}
